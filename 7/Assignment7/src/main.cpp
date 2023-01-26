@@ -29,8 +29,8 @@ int main(int argc, char **argv) {
   MeshTriangle *floor     = new MeshTriangle(projectDir + "models/cornellbox/floor.obj", white);
   MeshTriangle *shortbox  = new MeshTriangle(projectDir + "models/cornellbox/shortbox.obj", green);
   MeshTriangle *tallbox   = new MeshTriangle(projectDir + "models/cornellbox/tallbox.obj", red);
-  MeshTriangle *left      = new MeshTriangle(projectDir + "models/cornellbox/left.obj", red);
-  MeshTriangle *right     = new MeshTriangle(projectDir + "models/cornellbox/right.obj", green);
+  MeshTriangle *left      = new MeshTriangle(projectDir + "models/cornellbox/left.obj", white);
+  MeshTriangle *right     = new MeshTriangle(projectDir + "models/cornellbox/right.obj", white);
   MeshTriangle *meshLight = new MeshTriangle(projectDir + "models/cornellbox/light.obj", light);
   Sphere *sphereLight     = new Sphere({0, 0.45f, 1.5f}, 0.05f, light);
 

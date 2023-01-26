@@ -1,3 +1,0 @@
-E:/Computer Graphics/GAMES101_Homework_S2021/6/Assignment6/build/CMakeFiles/Assignment6.dir
-E:/Computer Graphics/GAMES101_Homework_S2021/6/Assignment6/build/CMakeFiles/ALL_BUILD.dir
-E:/Computer Graphics/GAMES101_Homework_S2021/6/Assignment6/build/CMakeFiles/ZERO_CHECK.dir

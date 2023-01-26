@@ -15,7 +15,7 @@ using namespace Eigen;
 constexpr double MY_PI    = 3.1415926;
 constexpr double DegToRad = 0.0174533;
 
-const string ProjectDir{"E:/Computer Graphics/GAMES101_Homework_S2021/3/Assignment3"};
+const string ProjectDir{"E:/Computer Graphics/GAMES101_Homework_S2021/3 Rasterizer/Assignment3"};
 
 Matrix4f get_view_matrix(Vector3f eye_pos) {
   Matrix4f view = Matrix4f::Identity();

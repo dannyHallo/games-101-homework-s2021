@@ -1,0 +1,10 @@
+^E:\COMPUTER GRAPHICS\GAMES101_HOMEWORK_S2021\7\ASSIGNMENT7\BUILD\CMAKEFILES\70D9BFB03EFD6E270526936D86A6E8CD\GENERATE.STAMP.RULE
+setlocal
+D:\CMake\bin\cmake.exe "-SE:/Computer Graphics/GAMES101_Homework_S2021/7/Assignment7" "-BE:/Computer Graphics/GAMES101_Homework_S2021/7/Assignment7/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "E:/Computer Graphics/GAMES101_Homework_S2021/7/Assignment7/build/Assignment7.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

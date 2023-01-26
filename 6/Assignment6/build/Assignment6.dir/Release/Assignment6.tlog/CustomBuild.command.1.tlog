@@ -1,0 +1,10 @@
+^E:\COMPUTER GRAPHICS\GAMES101_HOMEWORK_S2021\6\ASSIGNMENT6\CMAKELISTS.TXT
+setlocal
+D:\CMake\bin\cmake.exe "-SE:/Computer Graphics/GAMES101_Homework_S2021/6/Assignment6" "-BE:/Computer Graphics/GAMES101_Homework_S2021/6/Assignment6/build" --check-stamp-file "E:/Computer Graphics/GAMES101_Homework_S2021/6/Assignment6/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

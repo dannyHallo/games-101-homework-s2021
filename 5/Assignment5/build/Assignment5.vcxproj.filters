@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\Computer Graphics\GAMES101_Homework_S2021\5\Assignment5\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Computer Graphics\GAMES101_Homework_S2021\5\Assignment5\src\Scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Computer Graphics\GAMES101_Homework_S2021\5\Assignment5\src\Renderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Computer Graphics\GAMES101_Homework_S2021\5\Assignment5\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B99FFAD4-5A3F-3211-B6A7-C1524766499E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
